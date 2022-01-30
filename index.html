@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Cours JS (Pokemon API)</h1></header>
+    <hr>
+
+    <main>
+
+        <section class="pokemon_card">
+            <div class="pokemon">
+
+                <h3 class="pokename"></h3>
+                <div class="switch">
+                    <img class="pokeimg" src="" alt="">
+                    <img class="pokeshinyimg display" src="" alt="">
+                </div>
+                <p class="txtshine">click to shine !</p>
+                <div>
+                    <input class="previous" type="button" value="PREVIOUS">
+                    <input class="next" type="button" value="NEXT">
+                </div>
+                <div>
+                    <input class="random" type="button" value="RANDOM">
+                    <input class="more" type="button" value="Stats">
+                </div>
+            </div>
+    
+            <div class="stats display">
+                
+                <div class="stats_info">
+                    <p>TYPE : <span class="type type0"></span><span class="type type1"></span></p>
+                    <p>WEIGHT : <span class="weight"></span><i class="fas fa-weight-hanging"></i></p>
+                    <p>HEIGHT : <span class="height"></span><i class="fas fa-ruler-vertical"></i></p>
+                </div>
+                
+                <div class="stats_combat">
+                    <p>HP : <span class="hp"></span><i class="fas fa-heart"></i></p>
+                    <p>ATTACK : <span class="atk"></span><i class="fas fa-gavel"></i></p>
+                    <p>DEFENSE : <span class="def"></span><i class="fas fa-shield-alt"></i></p>
+                    <p>SPECIAL ATTACK : <span class="spatk"></span><i class="fas fa-biohazard"></i></p>
+                    <p>SPECIAL DEFENSE : <span class="spdef"></span><i class="fas fa-shield-virus"></i></p>
+                    <p>SPEED : <span class="speed"></span><i class="fas fa-wind"></i></p>
+                </div>
+            </div>
+        </section>
+
+        
+        
+    </main>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
